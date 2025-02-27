@@ -137,34 +137,32 @@ where e.datafa between '&dt1' and '&dt2'
 and e.sitafa in (2)
 and e.numcad = r.numcad
 and e.numemp = r.numemp
-and e.tipcol = r.tipcol
+and e.tipcol = r.tipcol;
 
 
-205631, 200732
-centro de custo 510
 
 select * from all_all_tables
-WHERE table_name like '%AFA%'
+WHERE table_name like '%AFA%';
 
-
+-----------------------------------------------------------------------------------------------------------
 select *
   from r066sit
  where datapu between '26-dec-2022' and '25-jan-2023'
    and codsit in (2)
    and numcad in (100180, 702447, 14000200, 205475, 901506, 9800004, 202406) 
    for update
-
+------------------------------------------------------------------------------------------------------------------
 
 select * from r066sit
 where datapu between '26-dec-2022' and '25-jan-2023'
 and numcad in (200774) --,602421
 for update
 
-
+-------------------------------------------------------------------------------------------------------------------
 select * from r066sit
 where numcad in (200774)
 
-
+--------------------------------------------------------------------------------------------------------------------
 select * from R034FUN
 where sitafa = 936
 nomfun like 'Silvana%Otavio%'

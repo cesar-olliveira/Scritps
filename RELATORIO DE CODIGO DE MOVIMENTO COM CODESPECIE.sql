@@ -45,17 +45,15 @@ SELECT 'JANEIRO' MES, --X.MES,
 Tirar movimento: DIFERENÇA NEGATIVA A CONCILIAR
  
 
-select * from FI_TSCODMOVIMENTO C
+select * from FI_TSCODMOVIMENTO C;
 
 -------------------------------------------------------------------------
-2023 Dinheiro 
-2024 janeiro a Maio
-Diretorio: V:\financeiro\MRPAVAN\01. Contas a Receber\Reinaldo Pavan\BASE FECHAMENTO CAIXA_FINALIZADORA
+
     
   
 
 SELECT * FROM FI_TSCODMOVIMENTO
-where codmovimento IN (5,4)
+where codmovimento IN (5,4);
  
 --------------------------------------------------------------------------------------------------------
 
